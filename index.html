@@ -24,7 +24,7 @@
             border: 0; /* For IE */
             /* Aspect ratio of image, gives initial dimension to prevent text moving down once image is loaded */
             /* When changing logo, change this also */
-            aspect-ratio: 125 / 50;
+            aspect-ratio: 512 / 512;
         }
         #main {
             vertical-align: middle;
@@ -65,6 +65,7 @@
         @media screen and (max-width:600px) {
             img {
                 width: 60%;
+                transpose: scale(0.8);
             }
             h1 {
                 font-size: 1.3em;
@@ -83,9 +84,8 @@
 <body>
     <div id="main">
         <img src="logo.png" alt="Logo Image">
-        <h1>Company Name</h1>
-        <h2>Our website is currently under construction. </h2>
-        <div id="progress"><div id="fill"><div id="barpercent"><h3>35%</h3></div></div></div>
+        <h1>FlyCore</h1>
+        <h2>Coming soon. </h2>
     </div>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 </body>
