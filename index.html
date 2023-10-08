@@ -14,6 +14,9 @@
     <meta name=viewport content="width=device-width, initial-scale=1">
     <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <style>
+        a {
+            color: #3F83F8;
+        }
         body { margin: 0; padding: 0; }
         html { height: 100%; cursor: default; }
         body {
@@ -29,6 +32,11 @@
             color: white;
         }
         h2 {
+            font-weight: 300;
+            margin-bottom: 25px;
+            color: white;
+        }
+        p {
             font-weight: 300;
             margin-bottom: 25px;
             color: white;
@@ -77,6 +85,9 @@
         }
 
         @media screen and (max-width:600px) {
+            a {
+                color: #3F83F8;
+            }
             img {
                 width: 90%;
             }
@@ -89,6 +100,10 @@
                 font-size: 1.1em;
                 color: white;
             }
+            p {
+                font-size: 0.9em;
+                color: white;
+            }
             #progress {
                 width: 80%; /* Bar width */
             }
@@ -99,7 +114,8 @@
 <body>
     <div id="main">
         <img src="logo.png" alt="Logo Image">
-        <h2>Coming soon. </h2>
+        <h2>Software for aviation SMBs. Coming soon.</h2>
+        <h2><a href="mailto:info@getflycore.com">Reach out</a> to learn more. </h2>
     </div>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 </body>
